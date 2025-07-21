@@ -34,7 +34,7 @@ const handleChat = (message) => {
     chatbox.appendChild(createChatLi(userMessage, "outgoing"));
     chatbox.scrollTo(0, chatbox.scrollHeight);
 
-    fetch("http://127.0.0.1:5000/process_input", {
+    fetch("/process_input", {
         method: "POST",
         body: JSON.stringify({ inputText: userMessage }),
         headers: {

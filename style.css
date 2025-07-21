@@ -9,7 +9,6 @@
 }
 body {
   background: #E3F2FD;
-  background-image: url("https://theappsolutions.com/images/articles/286/mental%20health%20chatbots.jpg");
 }
 .chatbot-toggler {
   position: fixed;
@@ -164,11 +163,14 @@ header h2 {
   height: 55px;
   display: flex;
   align-items: center;
+  visibility: hidden;
   font-size: 1.35rem;
 }
 .chat-input textarea:valid ~ span {
   visibility: visible;
 }
+
+/* ... (your existing CSS) ... */
 
 .chat-input span.voice-btn {
   align-self: flex-end;
@@ -177,17 +179,20 @@ header h2 {
   height: 55px;
   display: flex;
   align-items: center;
+  visibility: hidden;
   font-size: 1.35rem;
-  margin-right: 10px;
+  margin-right: 10px; /* Add some spacing to the right */
 }
 
 .chat-input span.voice-btn:hover {
-  color: #651ff7; 
+  color: #651ff7; /* Change color on hover */
 }
 
 .chat-input textarea:valid ~ span.voice-btn {
   visibility: visible;
 }
+
+/* ... (your existing CSS) ... */
 
 @media (max-width: 490px) {
   .chatbot-toggler {
