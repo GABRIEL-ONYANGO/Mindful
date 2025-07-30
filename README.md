@@ -31,14 +31,14 @@ MindFul provides:
 
 ---
 
-## ⚙ Key Features
+##  Key Features
 
-- 🕐 24/7 anonymous support
-- 🤖 AI-driven therapeutic conversation engine
-- 📘 Mental health learning content
-- 🚨 Emergency risk-based referral system
-- 📊 Analytics dashboard for trend insights
-- 🌐 Access via Web, WhatsApp, and Telegram
+-  24/7 anonymous support
+-  AI-driven therapeutic conversation engine
+-  Mental health learning content
+-  Emergency risk-based referral system
+-  Analytics dashboard for trend insights
+-  Access via Web, WhatsApp, and Telegram
 
 ---
 
